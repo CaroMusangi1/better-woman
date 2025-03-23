@@ -1,16 +1,21 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from flask_mail import Mail, Message
 import random
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"
+app.secret_key = os.getenv("SECRET_KEY", "your_secret_key")
 
-# Email Configuration (Use your email credentials)
+# Email Configuration (Use environment variables for security)
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "your_email@gmail.com"
-app.config["MAIL_PASSWORD"] = "your_email_password"
+app.config["MAIL_USERNAME"] = os.getenv("MAIL_USERNAME")
+app.config["MAIL_PASSWORD"] = os.getenv("MAIL_PASSWORD")
 
 mail = Mail(app)
 
@@ -64,11 +69,14 @@ def forgot_password():
             session['reset_code'] = verification_code
             session['reset_email'] = email
             
-            msg = Message("Password Reset Code", sender="your_email@gmail.com", recipients=[email])
-            msg.body = f"Your password reset verification code is: {verification_code}"
-            mail.send(msg)
+            try:
+                msg = Message("Password Reset Code", sender=app.config["MAIL_USERNAME"], recipients=[email])
+                msg.body = f"Your password reset verification code is: {verification_code}"
+                mail.send(msg)
+                flash("A verification code has been sent to your email.", "info")
+            except Exception as e:
+                flash(f"Error sending email: {str(e)}", "error")
 
-            flash("A verification code has been sent to your email.", "info")
             return redirect(url_for('reset_password'))
         else:
             flash("Email not found!", "error")
@@ -101,5 +109,5 @@ def logout():
     session.pop('email', None)
     return redirect(url_for('home'))
 
-if __name__ == '__main_p_':
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
