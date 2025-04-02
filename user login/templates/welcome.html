@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="background">
+  <div class="login-container">
+    <h2>Welcome, {{ email }}!</h2>
+    <p>You are successfully logged in.</p>
+    <p><a href="/logout">Logout</a></p>
+  </div>
+</body>
+</html>
