@@ -1,0 +1,15 @@
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.exe
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.deps.json
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.runtimeconfig.json
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.dll
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.pdb
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo.cs
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.sourcelink.json
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.dll
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\refint\TestProject.dll
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
+C:\Users\CARLO KITONGA\Desktop\Caro Saggie\My Code\Better woman\better-woman\CsharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll

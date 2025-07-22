@@ -15,9 +15,9 @@ body {
    max-width: 600px; 
    margin: 0 auto; 
    padding: 15px;
-   border: 1px solid #ddd;
+   border: 1px solid #271d2f;
    border-radius: 5px;
-   background: rgba(66, 57, 121, 0.8); 
+   background: rgba(21, 7, 29, 0.8); 
    box-sizing: border-box; 
 }
 
